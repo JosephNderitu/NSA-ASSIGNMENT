@@ -1,3 +1,7 @@
+# GIKURU JOSEPH NDERITU
+# SCT212-0574/2022
+# NSA ASSIGNMENT2 CALCULATOR
+
 print("select an operation to perform: ")
 print("1. ADD")
 print("2. SUBTRACT")
@@ -24,7 +28,7 @@ elif operation == "3":
 elif operation == "4":
     num1 =input("Enter first number: ")
     num2 =input("Enter second number: ")
-    print(" The answer is " + str((num1) / int(num2) ))
+    print(" The answer is " + str(int(num1) / int(num2)) )
 
 else:
     print("Invalid calculation")
